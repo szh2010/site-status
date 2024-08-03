@@ -26,7 +26,7 @@ const Footer = () => {
             text={Package.alia}
             to="https://github.com/imsyy/site-status"
           />
-          &nbsp;Version&nbsp;{Package.version}
+          &nbsp;Version&nbsp;{Package.version}  
         </p>
         <p>
           基于&nbsp;
@@ -34,11 +34,11 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
+          Copyright&nbsp;&copy;&nbsp;2022&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://www.songziheng.com/" text="神秘的星空smf" />
           {siteIcp ? (
-            <React.Fragment>
+            <React.Fragment> 
               &nbsp;|&nbsp;
               <CustomLink to="https://beian.miit.gov.cn/" text={siteIcp} />
             </React.Fragment>
